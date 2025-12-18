@@ -1,0 +1,27 @@
+{
+  "name": "zora-batch-tx",
+  "version": "1.0.0",
+  "description": "Batch buy Zora coins using ETH via Universal Router v4",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx batchBuyZoraCoins.eth.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.1",
+  "dependencies": {
+    "@uniswap/universal-router-sdk": "^4.25.0",
+    "@uniswap/v4-sdk": "^1.24.0",
+    "@zoralabs/coins-sdk": "^0.3.3",
+    "dotenv": "^17.2.3",
+    "viem": "^2.43.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
