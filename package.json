@@ -5,7 +5,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "tsx batchBuyZoraCoins.eth.ts",
+    "start": "tsx batchBuyMulticall.ts",
+    "start:single": "tsx batchBuyZoraCoins.eth.ts",
     "build": "tsc"
   },
   "keywords": [],
